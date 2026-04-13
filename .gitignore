@@ -1,0 +1,37 @@
+# Environment variables (sensitive)
+.env
+.env.local
+.env.*.local
+
+# Dependencies
+node_modules/
+
+# Python virtual environments
+ai_service/venv/
+ai_service/venv310/
+ai_service/venv311/
+**/__pycache__/
+**/*.pyc
+**/*.pyo
+*.egg-info/
+.venv/
+
+# Uploads (user-generated content)
+uploads/
+
+# Build outputs
+client/build/
+client/dist/
+dist/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
